@@ -1,0 +1,16 @@
+<Bindings>
+	<!--
+		Named bindings exposed to the Key Bindings UI so the user can also
+		bind them from Escape > Key Bindings (category "CoA Combat").
+		Runtime action lives in Core.lua; these strings just call it.
+	-->
+	<Binding name="COACOMBAT_TOGGLE" header="COACOMBAT" category="CoA Combat">
+		if CoACombat then CoACombat:Toggle() end
+	</Binding>
+	<Binding name="COACOMBAT_PAUSE" category="CoA Combat">
+		if CoACombat then CoACombat:PauseOnce() end
+	</Binding>
+	<Binding name="COACOMBAT_RETICLE_TOGGLE" category="CoA Combat">
+		if CoACombat then CoACombat:ToggleReticle() end
+	</Binding>
+</Bindings>

@@ -1,0 +1,22 @@
+## Interface: 30300
+## Title: CoA Combat (Action Camera)
+## Notes: Persistent mouselook + reticle so LMB/RMB become combat inputs and E interacts with whatever's at the crosshair. WoW 3.3.5a / Ascension.
+## Author: VE (with Claude, Cowork)
+## Version: 0.4.2
+## SavedVariables: CoACombatDB
+## SavedVariablesPerCharacter: CoACombatDBPC
+## OptionalDeps: Blizzard_CombatText
+
+Locale.lua
+Core.lua
+MouseLook.lua
+Bindings.lua
+Reticle.lua
+Interact.lua
+Targeting.lua
+Macros.lua
+Camera.lua
+Presets.lua
+Options.lua
+CrosshairOptions.lua
+CameraOptions.lua
